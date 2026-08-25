@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gayatri &middot; gayatridugar.com</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23F5F1EA'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='36' fill='%231E1B18' text-anchor='middle'%3EG%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Jost:wght@200;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-media="gayatri" data-photos="2" data-videos="9">
+
+<div class="loader" aria-hidden="true"><svg class="pulse-heart" viewBox="0 0 32 29"><path d="M26 3.5c-2.6-2.3-6.6-2-9 .7L16 5.4l-1-1.2c-2.4-2.7-6.4-3-9-.7-3 2.6-3.2 7.2-.5 10L16 25.5l10.5-12c2.7-2.8 2.5-7.4-.5-10z"/></svg></div>
+
+<header class="nav">
+  <a href="index.html" class="monogram"><img src="media/avatar.jpg" alt="Gayatri Dugar" onerror="this.classList.add('missing')"><span class="mono-fallback">G<span>&middot;</span>D</span></a>
+  <div class="nav-right">
+    <button id="themeToggle" aria-label="Toggle dark mode"></button>
+    <button class="burger" aria-label="Menu"><span></span><span></span></button>
+  </div>
+</header>
+
+<nav class="menu" id="menu">
+  <a href="gayatri.html" class="active">Gayatri <small>chapter one</small></a>
+  <a href="family.html">Family <small>chapter two</small></a>
+  <a href="punit.html">Punit <small>chapter three</small></a>
+  <a href="wpeople.html">W People <small>chapter four</small></a>
+  <a href="parth.html">Parth <small>in words</small></a>
+</nav>
+
+<main>
+
+  <section class="page-hero">
+    <p class="eyebrow reveal">chapter one</p>
+    <h1 class="serif reveal d1">Gayatri</h1>
+    <p class="page-sub reveal d2">the one &amp; only, in every frame she owns</p>
+  </section>
+
+  <section class="gallery">
+    <div class="section-head reveal">
+      <span class="rule"></span><h2 class="serif">Photographs</h2><span class="rule"></span>
+    </div>
+    <div class="grid auto-grid" id="photoGrid"></div>
+    <p class="grid-note reveal">( tap any photograph )</p>
+  </section>
+
+  <section class="films" id="filmsSection">
+    <div class="section-head reveal">
+      <span class="rule"></span><h2 class="serif">Films</h2><span class="rule"></span>
+    </div>
+    <div class="video-stack" id="videoStack"></div>
+  </section>
+
+</main>
+
+<footer>
+  <h2 class="footer-name serif reveal">Gayatri <em>Dugar</em></h2>
+  <nav class="footer-nav reveal d2">
+    <a href="gayatri.html">Gayatri</a>
+    <a href="family.html">Family</a>
+    <a href="punit.html">Punit</a>
+    <a href="wpeople.html">W People</a>
+    <a href="parth.html">Parth</a>
+  </nav>
+  <small>&copy; <span id="year"></span> &middot; gayatridugar.com</small>
+</footer>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lb-close" id="lbClose" aria-label="Close">&#215;</button>
+  <button class="lb-arrow lb-prev" id="lbPrev" aria-label="Previous">&#8249;</button>
+  <img src="" alt="" id="lbImg">
+  <button class="lb-arrow lb-next" id="lbNext" aria-label="Next">&#8250;</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
