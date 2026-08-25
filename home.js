@@ -82,6 +82,24 @@ const VIBES = {
       "All of it. Right here."
     ],
     files: ["media/love/1.mp4", "media/love/2.mp4", "media/love/3.mp4", "media/love/4.mp4", "media/love/5.mp4", "media/love/6.mp4", "media/love/7.mp4", "media/love/8.mp4"]
+  },
+  cutie: {
+    lines: [
+      "Certified cutie. It's official.",
+      "The cutest person to ever exist, honestly.",
+      "This smile? Illegal levels of adorable.",
+      "Cuteness overload. Handle with care."
+    ],
+    files: ["media/gayatri/1.jpg", "media/gayatri/2.jpg", "media/gayatri/v1.mp4", "media/gayatri/v2.mp4", "media/gayatri/v3.mp4", "media/gayatri/v4.mp4", "media/gayatri/v5.mp4", "media/gayatri/v6.mp4", "media/gayatri/v7.mp4", "media/gayatri/v8.mp4", "media/gayatri/v9.mp4"]
+  },
+  friends: {
+    lines: [
+      "Her favourite people, right here.",
+      "Friendship goals, every single frame.",
+      "The squad that shows up. Always.",
+      "Surrounded by love — as she should be."
+    ],
+    files: ["media/wpeople/1.jpg", "media/wpeople/2.jpg", "media/wpeople/3.jpg", "media/wpeople/4.jpg", "media/wpeople/v1.mp4", "media/wpeople/v2.mp4", "media/wpeople/v3.mp4"]
   }
 };
 
