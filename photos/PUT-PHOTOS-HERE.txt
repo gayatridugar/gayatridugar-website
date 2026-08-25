@@ -1,0 +1,8 @@
+Put Gayatri's photos in this folder.
+
+Name them exactly:
+portrait.jpg  (big photo at top of page)
+1.jpg through 10.jpg  (gallery)
+wide.jpg  (full-width banner)
+
+Or drop them here with any names and ask opencode to rename them for you.
